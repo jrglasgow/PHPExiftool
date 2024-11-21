@@ -69,7 +69,7 @@ class ClassesBuilder extends Command
     /**
      * @see Console\Command\Command
      */
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $start = microtime(true);
 
